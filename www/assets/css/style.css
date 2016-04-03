@@ -1,0 +1,213 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #ffffff;
+}
+.row{
+  margin-bottom: 0px;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 570px;
+  line-height: 0;
+  height: calc(100% - 50px);
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.shade{
+  text-shadow: 0px 1px 3px #FFFFFF;
+  font-family: 'Share Tech Mono', sans-serif;
+}
+.brandName{
+    font-size: 5.000em;
+    text-shadow: 0 0 0.313em #fff, 0 0 0.625em #fff;
+    margin: 0 auto;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+a.googleLoginButton{
+  
+  border-radius:3px;
+  margin-top:25px;
+  display:inline-block;
+  width:245px;
+  height:50px;
+  background:url('../images/google-login-button.png') no-repeat;
+  text-indent:-9999px;
+  overflow:hidden;
+}
+
+a.googleLoginButton:hover{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(1.1);
+}
+a.facebookLoginButton{
+  
+  border-radius:3px;
+  margin-top:25px;
+  display:inline-block;
+  width:245px;
+  height:50px;
+  background:url('../images/facebook-login-button.png') no-repeat;
+  text-indent:-9999px;
+  overflow:hidden;
+}
+
+a.facebookLoginButton:hover{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(1.1);
+}
+a.twitterLoginButton{
+  
+  border-radius:3px;
+  margin-top:25px;
+  display:inline-block;
+  width:245px;
+  height:50px;
+  background:url('../images/twitter-login-button.png') no-repeat;
+  text-indent:-9999px;
+  overflow:hidden;
+}
+
+a.twitterLoginButton:hover{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -o-transform: scale(0.1);
+    transform: scale(1.1);
+}
+.typed-cursor{
+    opacity: 0;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    visibility: hidden;
+}
+ #particles-js
+ { 
+  position:absolute; 
+  width: 100%; 
+  height: 100%; 
+  background-color: #333333; 
+  background-image: url(""); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 50% 50%;
+   }
+   #divLoading
+{
+    display : none;
+}
+#divLoading.show
+{
+    display : block;
+    position : fixed;
+    z-index: 100;
+    background-image : url('../images/rolling.gif');
+    background-color:#666;
+    opacity : 0.4;
+    background-repeat : no-repeat;
+    background-position : center;
+    left : 0;
+    bottom : 0;
+    right : 0;
+    top : 0;
+}
+#loadinggif.show
+{
+    left : 50%;
+    top : 50%;
+    position : absolute;
+    z-index : 101;
+    width : 32px;
+    height : 32px;
+    margin-left : -16px;
+    margin-top : -16px;
+}
+    #editor { 
+        
+        height:500px;
+        width:450px;
+    }
+    .hero{
+      background:url('../images/hero-image.png');
+      height:250px;
+      background-size:cover;
+      color:#ffffff;    
+      
+    }
+    #borderBlue{
+      border-left: 5px solid #06CC47;
+    }
+    #barofmenu{
+            text-shadow: 0 0 0 #fff, 0 0 0 #fff;
+
+    }
+    #mobile-demo{
+      font-size: 35px;
+    }
+ .side-nav li:hover, .side-nav li.active{
+  background-color:#06CC47;
+ }
