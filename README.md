@@ -27,7 +27,7 @@ Refer [Apache Cordovas Website - Getting Started](https://cordova.apache.org/#ge
 - Font Awesome
 - Google Cloud Messaging Service
 - PHP
-- 
+
 ### To read how i implemented push messaging service using GCM, PHP Please refer
 
 - [https://developers.google.com/cloud-messaging/http](https://developers.google.com/cloud-messaging/http#auth)
