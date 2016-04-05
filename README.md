@@ -27,6 +27,12 @@ Refer [Apache Cordovas Website - Getting Started](https://cordova.apache.org/#ge
 - Font Awesome
 - Google Cloud Messaging Service
 - PHP
+- 
+### To read how i implemented push messaging service using GCM, PHP Please refer
+
+- [https://developers.google.com/cloud-messaging/http](https://developers.google.com/cloud-messaging/http#auth)
+- [http://devgirl.org/2013/07/17/tutorial-implement-push-notifications-in-your-phonegap-application/](http://devgirl.org/2013/07/17/tutorial-implement-push-notifications-in-your-phonegap-application/)
+ * If someone requires full working code for it, Submit an issue 
 
 
 
